@@ -120,7 +120,7 @@ def Gradient(text):
 def InvalidChoice():
     print(f"{FAILED()} Invalid choice, please try again.")
     time.sleep(1)
-    NGAODoxingMenu()
+    OBlixMenu()
 
 # ========================= Doxing =========================
 
@@ -396,15 +396,15 @@ def Doxing():
     time.sleep(random.uniform(1, 2))
     print(f"{SUCCESS()} File Created In {red}->{reset} '{filepath}'")
     TypeWriterInput(f"{INPUT()} Press Enter To Continue {red}->{reset} ")
-    NGAODoxingMenu()
+    OBlixMenu()
 
 
 # ========================= Main Menu =========================
 
-def NGAODoxingMenu():
+def OBlixMenu():
     Clear()
     SetTitle("0BlixDoxerToolKit / By 0Blix")
-    NGAODoxing = f"""
+    OBlix = f"""
 _______ __________.__  .__         ________                           ___________           .__   ____  __.__  __   
 \   _  \\______   \  | |__|__  ___ \______ \   _______  ___ __________\__    ___/___   ____ |  | |    |/ _|__|/  |_ 
 /  /_\  \|    |  _/  | |  \  \/  /  |    |  \ /  _ \  \/  // __ \_  __ \|    | /  _ \ /  _ \|  | |      < |  \   __\
@@ -416,8 +416,8 @@ _______ __________.__  .__         ________                           __________
 ╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 ║                       {white}V1.0 {red}// {white}github.com/cazzysoci {red}// {white}Made By 0Blix {red}// {white}Doxing Tool{reset}                       ║
 ╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝"""
-    ScrollGradient(NGAODoxing)
+    ScrollGradient(OBlix)
     Doxing()
 
 if __name__ == "__main__":
-    NGAODoxingMenu()
+    OBlixMenu()
